@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tianyuan and Alpha Vet Pharmaceutical</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script>
+        // Check if coming from welcome page
+        if (!sessionStorage.getItem('welcomeShown')) {
+            // Redirect to welcome page
+            window.location.href = 'welcome.html';
+        }
+    </script>
+</head>
+<body>
+    <!-- Welcome page has been moved to welcome.html -->
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo-container">
+            <!-- Logo will go here -->
+            <img src="assets/images/logo.jpeg" alt="Tianyuan and Alpha Vet Pharmaceutical Logo" class="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="animate__animated animate__fadeInDown">Tianyuan and Alpha Vet Pharmaceutical</h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Excellence in Pharmaceutical Solutions</p>
+            <a href="contact.html" class="cta-button animate__animated animate__fadeInUp animate__delay-2s">Get in Touch</a>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <!-- About Section Preview -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About Us</h2>
+                <p>Tianyuan and Alpha Vet Pharmaceutical is dedicated to providing high-quality pharmaceutical products and services. With years of experience in the industry, we have established ourselves as a trusted name in the field.</p>
+                <a href="about.html" class="read-more">Read More</a>
+            </div>
+            <div class="about-image">
+                <!-- Replace with your actual image -->
+                <img src="assets/images/about-preview.jpg" alt="About Tianyuan and Alpha Vet Pharmaceutical">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>Research & Development</h3>
+                    <p>Cutting-edge research to develop innovative pharmaceutical solutions.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-pills"></i>
+                    <h3>Pharmaceutical Products</h3>
+                    <p>High-quality medications and supplements for veterinary use.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-vial"></i>
+                    <h3>Quality Testing</h3>
+                    <p>Rigorous quality control to ensure product safety and efficacy.</p>
+                </div>
+            </div>
+            <a href="services.html" class="view-all">View All Services</a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>"Tianyuan and Alpha Vet Pharmaceutical has consistently provided us with high-quality products that meet our strict standards."</p>
+                    <div class="client-info">
+                        <h4>John Smith</h4>
+                        <p>Veterinary Clinic Director</p>
+                    </div>
+                </div>
+                <!-- Add more testimonials as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Preview -->
+    <section class="contact-preview">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get in Touch</h2>
+                <p>Have questions or want to learn more about our products and services? Contact us today!</p>
+                <a href="contact.html" class="contact-button">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo-white.png" alt="Tianyuan and Alpha Vet Pharmaceutical Logo">
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Pharmaceutical Ave, City, Country</p>
+                    <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@tyalphavet.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Tianyuan and Alpha Vet Pharmaceutical. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
