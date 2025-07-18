@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Laboratory setting -->
+  <rect x="50" y="100" width="700" height="400" rx="10" fill="#e0e0e0"/>
+  
+  <!-- Laboratory equipment -->
+  <rect x="100" y="150" width="200" height="300" rx="5" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <rect x="150" y="200" width="100" height="150" rx="5" fill="#d0d0d0" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Microscope -->
+  <rect x="400" y="250" width="50" height="100" fill="#333333"/>
+  <circle cx="425" cy="230" r="20" fill="#333333"/>
+  <rect x="415" y="350" width="20" height="50" fill="#333333"/>
+  <rect x="385" y="400" width="80" height="10" fill="#333333"/>
+  
+  <!-- Test tubes -->
+  <rect x="500" y="200" width="10" height="80" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+  <rect x="520" y="200" width="10" height="80" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+  <rect x="540" y="200" width="10" height="80" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+  <rect x="560" y="200" width="10" height="80" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Colored liquids in test tubes -->
+  <rect x="500" y="240" width="10" height="40" rx="0" fill="#ff9999"/>
+  <rect x="520" y="250" width="10" height="30" rx="0" fill="#99ff99"/>
+  <rect x="540" y="230" width="10" height="50" rx="0" fill="#9999ff"/>
+  <rect x="560" y="260" width="10" height="20" rx="0" fill="#ffff99"/>
+  
+  <!-- Test tube rack -->
+  <rect x="490" y="280" width="90" height="10" fill="#666666"/>
+  
+  <!-- Researcher silhouette -->
+  <circle cx="650" cy="250" r="30" fill="#333333"/>
+  <rect x="635" y="280" width="30" height="100" fill="#333333"/>
+  <rect x="620" y="300" width="15" height="60" fill="#333333"/>
+  <rect x="665" y="300" width="15" height="60" fill="#333333"/>
+  
+  <!-- Text label -->
+  <text x="400" y="500" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333">Pharmaceutical Research Laboratory</text>
+</svg>

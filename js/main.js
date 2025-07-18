@@ -1,13 +1,51 @@
 // Main JavaScript for Tianyuan and Alpha Vet Pharmaceutical website
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Header hover effect
+    const header = document.querySelector('header');
+    if (header) {
+        header.addEventListener('mouseenter', function() {
+            this.style.opacity = '1';
+            this.style.backgroundColor = 'white';
+            this.style.transform = 'translateY(0)';
+        });
+        
+        header.addEventListener('mouseleave', function() {
+            const nav = document.querySelector('.nav-links');
+            const isNavActive = nav && nav.classList.contains('nav-active');
+            
+            // Only change opacity if mobile menu is not active
+            if (!isNavActive) {
+                if (window.scrollY > 50) {
+                    this.style.opacity = '0.8';
+                    this.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                } else {
+                    this.style.opacity = '0.2';
+                    this.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+                }
+            }
+        });
+    }
     // Header scroll effect
     window.addEventListener('scroll', function() {
         const header = document.querySelector('header');
+        const nav = document.querySelector('.nav-links');
+        const isNavActive = nav && nav.classList.contains('nav-active');
+        
         if (window.scrollY > 50) {
             header.classList.add('scrolled');
+            // Keep some opacity when scrolled but not hovered
+            if (!header.matches(':hover') && !isNavActive) {
+                header.style.opacity = '0.8';
+                header.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+            }
         } else {
             header.classList.remove('scrolled');
+            // Return to default opacity when at top and not hovered
+            if (!header.matches(':hover') && !isNavActive) {
+                header.style.opacity = '0.2';
+                header.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+            }
         }
     });
 

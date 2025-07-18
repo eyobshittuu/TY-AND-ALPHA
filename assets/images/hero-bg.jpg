@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a6572;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#grad1)"/>
+  
+  <!-- Abstract pharmaceutical elements -->
+  <!-- DNA Helix -->
+  <g opacity="0.2" fill="#ffffff">
+    <path d="M200,100 Q300,200 200,300 Q100,400 200,500 Q300,600 200,700 Q100,800 200,900" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M200,100 Q100,200 200,300 Q300,400 200,500 Q100,600 200,700 Q300,800 200,900" stroke="#ffffff" stroke-width="5" fill="none"/>
+    
+    <!-- Connecting lines -->
+    <line x1="200" y1="100" x2="200" y2="100" stroke="#ffffff" stroke-width="3"/>
+    <line x1="200" y1="300" x2="200" y2="300" stroke="#ffffff" stroke-width="3"/>
+    <line x1="200" y1="500" x2="200" y2="500" stroke="#ffffff" stroke-width="3"/>
+    <line x1="200" y1="700" x2="200" y2="700" stroke="#ffffff" stroke-width="3"/>
+    <line x1="200" y1="900" x2="200" y2="900" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  
+  <!-- Molecular structures -->
+  <g opacity="0.15">
+    <!-- Hexagon structure -->
+    <polygon points="1600,300 1650,260 1700,300 1700,380 1650,420 1600,380" fill="none" stroke="#ffffff" stroke-width="4"/>
+    <polygon points="1650,420 1700,460 1650,500 1600,460" fill="none" stroke="#ffffff" stroke-width="4"/>
+    <polygon points="1700,380 1750,420 1700,460" fill="none" stroke="#ffffff" stroke-width="4"/>
+    <polygon points="1600,380 1550,420 1600,460" fill="none" stroke="#ffffff" stroke-width="4"/>
+    
+    <!-- Circles at vertices -->
+    <circle cx="1600" cy="300" r="8" fill="#ffffff"/>
+    <circle cx="1650" cy="260" r="8" fill="#ffffff"/>
+    <circle cx="1700" cy="300" r="8" fill="#ffffff"/>
+    <circle cx="1700" cy="380" r="8" fill="#ffffff"/>
+    <circle cx="1650" cy="420" r="8" fill="#ffffff"/>
+    <circle cx="1600" cy="380" r="8" fill="#ffffff"/>
+    <circle cx="1700" cy="460" r="8" fill="#ffffff"/>
+    <circle cx="1650" cy="500" r="8" fill="#ffffff"/>
+    <circle cx="1600" cy="460" r="8" fill="#ffffff"/>
+    <circle cx="1750" cy="420" r="8" fill="#ffffff"/>
+    <circle cx="1550" cy="420" r="8" fill="#ffffff"/>
+  </g>
+  
+  <!-- Scattered pills and capsules -->
+  <g opacity="0.1">
+    <!-- Pills -->
+    <circle cx="400" cy="200" r="20" fill="#ffffff"/>
+    <circle cx="800" cy="400" r="15" fill="#ffffff"/>
+    <circle cx="1200" cy="600" r="25" fill="#ffffff"/>
+    <circle cx="1000" cy="200" r="18" fill="#ffffff"/>
+    <circle cx="600" cy="800" r="22" fill="#ffffff"/>
+    
+    <!-- Capsules -->
+    <ellipse cx="500" cy="600" rx="30" ry="15" fill="#ffffff" transform="rotate(30,500,600)"/>
+    <ellipse cx="900" cy="700" rx="25" ry="12" fill="#ffffff" transform="rotate(-20,900,700)"/>
+    <ellipse cx="1300" cy="300" rx="35" ry="15" fill="#ffffff" transform="rotate(45,1300,300)"/>
+    <ellipse cx="700" cy="300" rx="28" ry="14" fill="#ffffff" transform="rotate(-40,700,300)"/>
+    <ellipse cx="1100" cy="800" rx="32" ry="16" fill="#ffffff" transform="rotate(15,1100,800)"/>
+  </g>
+  
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+  </pattern>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+</svg>

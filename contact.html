@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Tianyuan and Alpha Vet Pharmaceutical</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
@@ -31,10 +32,10 @@
     </header>
 
     <!-- Contact Hero Section -->
-    <section class="page-hero">
+    <section class="page-hero parallax-element">
         <div class="hero-content">
-            <h1 class="animate__animated animate__fadeInDown">Contact Us</h1>
-            <p class="animate__animated animate__fadeInUp animate__delay-1s">Get in touch with Tianyuan and Alpha Vet Pharmaceutical</p>
+            <h1 class="text-reveal">Contact Us</h1>
+            <p class="fade-in">Get in touch with Tianyuan and Alpha Vet Pharmaceutical</p>
         </div>
     </section>
 
@@ -42,32 +43,32 @@
     <section class="contact-info-section">
         <div class="container">
             <div class="contact-info-grid">
-                <div class="contact-card fade-in">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h3>Our Location</h3>
-                    <p>123 Pharmaceutical Ave</p>
-                    <p>City, Country</p>
+                <div class="contact-card morph-card stagger-animation">
+                    <i class="fas fa-map-marker-alt float-element"></i>
+                    <h3 class="fade-in">Our Location</h3>
+                    <p class="fade-in">123 Pharmaceutical Ave</p>
+                    <p class="fade-in">City, Country</p>
                 </div>
                 
-                <div class="contact-card fade-in">
-                    <i class="fas fa-phone"></i>
-                    <h3>Phone Number</h3>
-                    <p>+1 (123) 456-7890</p>
-                    <p>+1 (123) 456-7891</p>
+                <div class="contact-card morph-card stagger-animation">
+                    <i class="fas fa-phone float-element"></i>
+                    <h3 class="fade-in">Phone Number</h3>
+                    <p class="fade-in">+1 (123) 456-7890</p>
+                    <p class="fade-in">+1 (123) 456-7891</p>
                 </div>
                 
-                <div class="contact-card fade-in">
-                    <i class="fas fa-envelope"></i>
-                    <h3>Email Address</h3>
-                    <p>info@tyalphavet.com</p>
-                    <p>support@tyalphavet.com</p>
+                <div class="contact-card morph-card stagger-animation">
+                    <i class="fas fa-envelope float-element"></i>
+                    <h3 class="fade-in">Email Address</h3>
+                    <p class="fade-in">info@tyalphavet.com</p>
+                    <p class="fade-in">support@tyalphavet.com</p>
                 </div>
                 
-                <div class="contact-card fade-in">
-                    <i class="fas fa-clock"></i>
-                    <h3>Business Hours</h3>
-                    <p>Monday - Friday: 9am - 5pm</p>
-                    <p>Saturday - Sunday: Closed</p>
+                <div class="contact-card morph-card stagger-animation">
+                    <i class="fas fa-clock float-element"></i>
+                    <h3 class="fade-in">Business Hours</h3>
+                    <p class="fade-in">Monday - Friday: 9am - 5pm</p>
+                    <p class="fade-in">Saturday - Sunday: Closed</p>
                 </div>
             </div>
         </div>
@@ -77,41 +78,41 @@
     <section class="contact-form-section">
         <div class="container">
             <div class="contact-grid">
-                <div class="contact-form-container fade-in">
-                    <h2>Send Us a Message</h2>
+                <div class="contact-form-container slide-in-left">
+                    <h2 class="text-reveal">Send Us a Message</h2>
                     <form id="contact-form" class="contact-form">
-                        <div class="form-group">
+                        <div class="form-group fade-in">
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         
-                        <div class="form-group">
+                        <div class="form-group fade-in">
                             <label for="email">Your Email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         
-                        <div class="form-group">
+                        <div class="form-group fade-in">
                             <label for="phone">Phone Number</label>
                             <input type="tel" id="phone" name="phone">
                         </div>
                         
-                        <div class="form-group">
+                        <div class="form-group fade-in">
                             <label for="subject">Subject</label>
                             <input type="text" id="subject" name="subject" required>
                         </div>
                         
-                        <div class="form-group">
+                        <div class="form-group fade-in">
                             <label for="message">Your Message</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
                         
-                        <button type="submit" class="submit-button">Send Message</button>
+                        <button type="submit" class="submit-button btn-modern zoom-in">Send Message</button>
                     </form>
                 </div>
                 
-                <div class="contact-map fade-in">
-                    <h2>Find Us</h2>
-                    <div class="map-container">
+                <div class="contact-map slide-in-right">
+                    <h2 class="text-reveal">Find Us</h2>
+                    <div class="map-container morph-card">
                         <!-- Replace with your actual Google Maps embed code -->
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215266754809!2d-73.98784368459377!3d40.74844797932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU0LjQiTiA3M8KwNTknMTMuMiJX!5e0!3m2!1sen!2sus!4v1625764215076!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>

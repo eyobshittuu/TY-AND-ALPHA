@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tianyuan and Alpha Vet Pharmaceutical</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script>
@@ -41,26 +44,36 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero parallax-element">
         <div class="hero-content">
-            <h1 class="animate__animated animate__fadeInDown">Tianyuan and Alpha Vet Pharmaceutical</h1>
-            <p class="animate__animated animate__fadeInUp animate__delay-1s">Excellence in Pharmaceutical Solutions</p>
-            <a href="contact.html" class="cta-button animate__animated animate__fadeInUp animate__delay-2s">Get in Touch</a>
+            <h1 class="hero-title">Tianyuan and Alpha Vet Pharmaceutical</h1>
+            <p class="fade-in">Excellence in Pharmaceutical Solutions</p>
+            <a href="contact.html" class="cta-button btn-modern fade-in">Get in Touch</a>
         </div>
         <div class="scroll-indicator"></div>
     </section>
 
     <!-- About Section Preview -->
-    <section class="about-preview">
+    <section id="about-preview" class="section">
         <div class="container">
+            <h2 class="section-title text-reveal">About Us</h2>
             <div class="about-content">
-                <h2 class="section-title">About Us</h2>
-                <p>Tianyuan and Alpha Vet Pharmaceutical is dedicated to providing high-quality pharmaceutical products and services. With years of experience in the industry, we have established ourselves as a trusted name in the field.</p>
-                <a href="about.html" class="read-more">Read More</a>
-            </div>
-            <div class="about-image">
-                <!-- Replace with your actual image -->
-                <img src="assets/images/about-preview.jpg" alt="About Tianyuan and Alpha Vet Pharmaceutical">
+                <div class="about-text fade-in">
+                    <p>Tianyuan and Alpha Vet Pharmaceutical is a leading provider of veterinary pharmaceutical products and services with over 15 years of experience in the industry.</p>
+                    <p>Our mission is to improve animal health through innovative pharmaceutical solutions that meet the highest standards of quality and efficacy.</p>
+                    <p>With a team of dedicated researchers, veterinarians, and pharmaceutical experts, we are committed to developing cutting-edge products that address the evolving needs of the veterinary community.</p>
+                    <ul class="about-highlights">
+                        <li><i class="fas fa-check-circle"></i> ISO 9001 certified manufacturing facilities</li>
+                        <li><i class="fas fa-check-circle"></i> Compliance with international regulatory standards</li>
+                        <li><i class="fas fa-check-circle"></i> Continuous research and development</li>
+                        <li><i class="fas fa-check-circle"></i> Global distribution network</li>
+                    </ul>
+                    <a href="about.html" class="btn">Learn More About Us</a>
+                </div>
+                <div class="about-image morph-card">
+                    <img src="assets/images/about-preview.jpg" alt="About Us Preview" class="parallax-element">
+                    <div class="image-caption">Our state-of-the-art research laboratory</div>
+                </div>
             </div>
         </div>
     </section>
@@ -68,52 +81,128 @@
     <!-- Services Section Preview -->
     <section class="services-preview">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
+            <h2 class="section-title text-reveal">Our Services</h2>
+            <p class="section-description fade-in">Discover our comprehensive range of veterinary pharmaceutical solutions designed to improve animal health and welfare.</p>
             <div class="services-grid">
-                <div class="service-card">
-                    <i class="fas fa-flask"></i>
+                <div class="service-card morph-card stagger-animation">
+                    <i class="fas fa-flask float-element"></i>
                     <h3>Research & Development</h3>
-                    <p>Cutting-edge research to develop innovative pharmaceutical solutions.</p>
+                    <p>Our dedicated R&D team works tirelessly to develop innovative solutions for complex veterinary challenges.</p>
+                    <a href="services.html#research" class="btn">Learn More</a>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-pills"></i>
+                <div class="service-card morph-card stagger-animation">
+                    <i class="fas fa-pills float-element"></i>
                     <h3>Pharmaceutical Products</h3>
-                    <p>High-quality medications and supplements for veterinary use.</p>
+                    <p>High-quality medications and supplements for veterinary use that meet international standards and regulatory requirements.</p>
+                    <a href="services.html#pharmaceuticals" class="btn">Learn More</a>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-vial"></i>
+                <div class="service-card morph-card stagger-animation">
+                    <i class="fas fa-vial float-element"></i>
                     <h3>Quality Testing</h3>
-                    <p>Rigorous quality control to ensure product safety and efficacy.</p>
+                    <p>Rigorous quality control to ensure product safety and efficacy for all our veterinary pharmaceutical solutions.</p>
+                    <a href="services.html#testing" class="btn">Learn More</a>
                 </div>
             </div>
-            <a href="services.html" class="view-all">View All Services</a>
+            <a href="services.html" class="view-all btn-modern fade-in">View All Services</a>
         </div>
     </section>
 
     <!-- Testimonials Section -->
     <section class="testimonials">
         <div class="container">
-            <h2 class="section-title">What Our Clients Say</h2>
+            <h2 class="section-title text-reveal">What Our Clients Say</h2>
             <div class="testimonial-slider">
-                <div class="testimonial">
-                    <p>"Tianyuan and Alpha Vet Pharmaceutical has consistently provided us with high-quality products that meet our strict standards."</p>
-                    <div class="client-info">
-                        <h4>John Smith</h4>
+                <div class="testimonial morph-card zoom-in">
+                    <p class="fade-in">"Tianyuan and Alpha Vet Pharmaceutical has consistently provided us with high-quality products that meet our strict standards. Their commitment to excellence is unmatched in the industry."</p>
+                    <div class="client-info slide-in-left">
+                        <h4>Dr. John Smith</h4>
                         <p>Veterinary Clinic Director</p>
                     </div>
                 </div>
-                <!-- Add more testimonials as needed -->
+                
+                <div class="testimonial morph-card zoom-in">
+                    <p class="fade-in">"We've been working with Tianyuan and Alpha for over five years, and their pharmaceutical products have significantly improved our treatment outcomes. Their customer service is exceptional."</p>
+                    <div class="client-info slide-in-left">
+                        <h4>Dr. Sarah Johnson</h4>
+                        <p>Animal Hospital Owner</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial morph-card zoom-in">
+                    <p class="fade-in">"The research and development team at Tianyuan and Alpha Vet Pharmaceutical is truly innovative. They've helped us solve complex treatment challenges with their cutting-edge solutions."</p>
+                    <div class="client-info slide-in-left">
+                        <h4>Prof. Michael Chen</h4>
+                        <p>Veterinary Research Institute</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section Preview -->
-    <section class="contact-preview">
+    <section id="contact-preview" class="section">
         <div class="container">
-            <div class="contact-content">
-                <h2 class="section-title">Get in Touch</h2>
-                <p>Have questions or want to learn more about our products and services? Contact us today!</p>
-                <a href="contact.html" class="contact-button">Contact Us</a>
+            <h2 class="section-title text-reveal">Contact Us</h2>
+            <p class="section-description fade-in">Get in touch with our team for inquiries, collaborations, or to learn more about our products and services.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info morph-card zoom-in">
+                    <h3>Reach Out to Us</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@tyalphapharma.com</p>
+                            <p>support@tyalphapharma.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>Main: +1 (555) 123-4567</p>
+                            <p>Support: +1 (555) 987-6543</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Pharmaceutical Avenue</p>
+                            <p>Research Park, CA 94105</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                            <p>Saturday - Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-preview morph-card zoom-in">
+                    <h3>Quick Message</h3>
+                    <p>Send us a brief message and we'll get back to you as soon as possible.</p>
+                    <form class="quick-contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    <p class="or-divider">OR</p>
+                    <a href="contact.html" class="btn btn-outline">Visit Full Contact Page</a>
+                </div>
             </div>
         </div>
     </section>
@@ -124,34 +213,79 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <img src="assets/images/logo-white.png" alt="Tianyuan and Alpha Vet Pharmaceutical Logo">
+                    <p class="company-tagline">Advancing Veterinary Health Through Innovation</p>
                 </div>
+                
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="careers.html">Careers</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="footer-contact">
-                    <h3>Contact Information</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Pharmaceutical Ave, City, Country</p>
-                    <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
-                    <p><i class="fas fa-envelope"></i> info@tyalphavet.com</p>
+                
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="services.html#research">Research & Development</a></li>
+                        <li><a href="services.html#pharmaceuticals">Pharmaceutical Products</a></li>
+                        <li><a href="services.html#testing">Quality Testing</a></li>
+                        <li><a href="services.html#consultation">Veterinary Consultation</a></li>
+                        <li><a href="services.html#distribution">Global Distribution</a></li>
+                    </ul>
                 </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Pharmaceutical Avenue, Research Park, CA 94105</p>
+                    <p><i class="fas fa-envelope"></i> info@tyalphapharma.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-fax"></i> +1 (555) 987-6543</p>
+                </div>
+                
                 <div class="footer-social">
-                    <h3>Follow Us</h3>
+                    <h3>Connect With Us</h3>
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to Our Newsletter</h4>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your Email Address" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
                     </div>
                 </div>
             </div>
+            
+            <div class="footer-middle">
+                <div class="certifications">
+                    <h4>Certifications & Affiliations</h4>
+                    <div class="cert-icons">
+                        <span><i class="fas fa-certificate"></i> ISO 9001</span>
+                        <span><i class="fas fa-shield-alt"></i> GMP Certified</span>
+                        <span><i class="fas fa-award"></i> FDA Approved</span>
+                        <span><i class="fas fa-check-circle"></i> WHO Standards</span>
+                    </div>
+                </div>
+            </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2023 Tianyuan and Alpha Vet Pharmaceutical. All Rights Reserved.</p>
+                <p>&copy; 2023 Tianyuan and Alpha Vet Pharmaceutical. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="sitemap.html">Sitemap</a>
+                </div>
             </div>
         </div>
     </footer>
